@@ -1,0 +1,38 @@
+:root{
+    font-size: 16px;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #d9d9e0;
+    --bg-secondary: #262627;
+}
+
+body{
+    margin:0;
+    padding:0;
+    color:black;
+    background-color: white;
+}
+
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+
+main{
+    margin-left: 5rem;
+}
+
+.buttons{
+    width:70px;
+}
+
+#requested{
+    border:1px solid black;
+    width:500px;
+    height:500px;
+    margin-top:5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    text-align: justify;
+    text-justify: inter-word;
+}
